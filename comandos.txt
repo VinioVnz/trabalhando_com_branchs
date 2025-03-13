@@ -9,4 +9,8 @@ ENTRAR EM UMA BRANCH = git checkout nome-branch
 
 git push origin nome-branch
 
+<<<<<<< HEAD
 MESCLAR
+=======
+
+>>>>>>> ramo1
