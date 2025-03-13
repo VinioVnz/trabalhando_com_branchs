@@ -6,3 +6,7 @@ CRIAR UMA BRANCH = git branch nome-da-branch
 LISTAR BRANCHES = git branch
 
 ENTRAR EM UMA BRANCH = git checkout nome-branch
+
+git push origin nome-branch
+
+
