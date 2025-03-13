@@ -1,3 +1,3 @@
 main(){
-    int valor1 = 0;
+    int valor1 = 100;
 }
