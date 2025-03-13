@@ -1,0 +1,12 @@
+CRIAR UMA BRANCH = git branch nome-da-branch
+    >sem acentuação
+    >sem espaços
+    >nomes objetivos
+
+LISTAR BRANCHES = git branch
+
+ENTRAR EM UMA BRANCH = git checkout nome-branch
+
+git push origin nome-branch
+
+MESCLAR
