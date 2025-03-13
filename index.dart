@@ -1,0 +1,3 @@
+main(){
+    String nome = "Vinícius";
+}
