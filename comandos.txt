@@ -13,7 +13,7 @@ git config –gloval user.email “”
 LISTAR BRANCHES = git branch
 
 ENTRAR EM UMA BRANCH = git checkout nome-branch
-
+ENTRAR E CRIAR BRANCH = git checkout -b nome-branch
 git push origin nome-branch
 
 MESCLAR BRANCHES
