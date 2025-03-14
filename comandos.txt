@@ -3,6 +3,13 @@ CRIAR UMA BRANCH = git branch nome-da-branch
     >sem espaços
     >nomes objetivos
 
+git config –list
+
+
+git config –global user.name
+git config –gloval user.email “”
+
+
 LISTAR BRANCHES = git branch
 
 ENTRAR EM UMA BRANCH = git checkout nome-branch
@@ -12,3 +19,21 @@ git push origin nome-branch
 MESCLAR BRANCHES
 git checkout master ou main
 git merge nome-branche
+
+RESCOLVENDO CONFLITOS
+ao alterar um mesmo arquivo no mesmo trecho( linhas) de código, por commits
+diferentes ou branchs diferentes, um conflito é detectado.
+Isso ocorre porque o git controla para você todas as alterações de código que 
+foram realizadas e mostra o conflito para que você decida o que fazer
+
+no vscode aparecem algumas opções
+Accept Current Change = aceita a versão do código que ja estava presente na 
+branch atual descantando a versão do outro branch
+
+Accept Incoming change = aceita a versão do código que está vindo do outro branch, 
+descartando a versão do branch atual
+
+compare changes = abre uma compração lado a lado para que você possa analisar
+as diferenças antes de decidir qual alteração aceitar
+
+git merge --abort = aborta o merge
